@@ -14,4 +14,8 @@
     NSLog(@"hdSubProjectMethodTwo");
 }
 
++ (void)hdSubProjectMethodTwo2{
+    NSLog(@"hdSubProjectMethodTwo2");
+}
+
 @end

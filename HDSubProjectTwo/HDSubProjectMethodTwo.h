@@ -12,4 +12,6 @@
 
 + (void)hdSubProjectMethodTwo;
 
++ (void)hdSubProjectMethodTwo2;
+
 @end
