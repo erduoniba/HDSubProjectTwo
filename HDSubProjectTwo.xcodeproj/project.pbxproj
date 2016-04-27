@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		049DC11D1CD052CB0021599C /* HDSubProjectTwo.h in Headers */ = {isa = PBXBuildFile; fileRef = 049DC11C1CD052CB0021599C /* HDSubProjectTwo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		049DC1381CD057B00021599C /* HDSubProjectMethodTwo.h in Headers */ = {isa = PBXBuildFile; fileRef = 049DC1361CD057B00021599C /* HDSubProjectMethodTwo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		049DC1391CD057B00021599C /* HDSubProjectMethodTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 049DC1371CD057B00021599C /* HDSubProjectMethodTwo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		049DC1191CD052CB0021599C /* HDSubProjectTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HDSubProjectTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		049DC11C1CD052CB0021599C /* HDSubProjectTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDSubProjectTwo.h; sourceTree = "<group>"; };
 		049DC11E1CD052CB0021599C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049DC1361CD057B00021599C /* HDSubProjectMethodTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDSubProjectMethodTwo.h; sourceTree = "<group>"; };
+		049DC1371CD057B00021599C /* HDSubProjectMethodTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDSubProjectMethodTwo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				049DC11C1CD052CB0021599C /* HDSubProjectTwo.h */,
 				049DC11E1CD052CB0021599C /* Info.plist */,
+				049DC1361CD057B00021599C /* HDSubProjectMethodTwo.h */,
+				049DC1371CD057B00021599C /* HDSubProjectMethodTwo.m */,
 			);
 			path = HDSubProjectTwo;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				049DC11D1CD052CB0021599C /* HDSubProjectTwo.h in Headers */,
+				049DC1381CD057B00021599C /* HDSubProjectMethodTwo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049DC1391CD057B00021599C /* HDSubProjectMethodTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +241,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = HDSubProjectTwo/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -249,6 +258,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = HDSubProjectTwo/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -277,6 +287,7 @@
 				049DC1231CD052CB0021599C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
